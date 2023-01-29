@@ -1,0 +1,1 @@
+<view class="err_tips" hidden="{{!err_tips_data.err_tips_show}}"><view class="weui-mask_transparent _div"></view><view class="weui-err_tips _div"><view class="weui-err_tips__content _p">{{err_tips_data.err_tips_text}}</view></view></view>

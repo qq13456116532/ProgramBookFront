@@ -1,0 +1,54 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": false,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx1fd9aeec7d9a63cd",
+  "projectname": "book",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "test",
+          "pathName": "pages/login/wxlogin/wxlogin",
+          "query": ""
+        },
+        {
+          "name": "shop",
+          "pathName": "pages/shop/shop",
+          "query": ""
+        },
+        {
+          "name": "book_detail",
+          "pathName": "pages/book_detail/book_detail",
+          "query": ""
+        },
+        {
+          "name": "classify",
+          "pathName": "pages/classify/classify",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "backgroundColor": "#fff",
+  "navigationBarBackgroundColor": "#FD9941",
+  "navigationBarTitleText": "排行榜",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="toast" hidden="{{!toast_data.toast_show}}"><view class="weui-mask_transparent _div"></view><view class="weui-toast _div"><view class="{{['_i',toast_data.toast_icon_type]}}"></view><view class="weui-toast__content _p">{{toast_data.toast_text}}</view></view></view>

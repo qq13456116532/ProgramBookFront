@@ -1,0 +1,1 @@
+<view class="err_page" hidden="{{!err_page_data.show}}"><image src="{{err_page_data.image_url}}"></image><view class="page_des">{{err_page_data.text}}</view><button data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" class="page_button" bindtap="__e">{{err_page_data.buttonText}}</button></view>

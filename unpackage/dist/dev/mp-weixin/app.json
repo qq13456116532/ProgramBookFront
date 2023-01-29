@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/booklist/booklist",
+    "pages/shop/shop",
+    "pages/user/user",
+    "pages/login/wxlogin/wxlogin",
+    "pages/book_detail/book_detail",
+    "pages/component/email_digest/email_digest",
+    "pages/component/err_page/err_page",
+    "pages/component/err_tips/err_tips",
+    "pages/component/toast/toast",
+    "pages/classify/classify",
+    "pages/logs/logs",
+    "pages/rank/rank",
+    "pages/user/userinfo/userinfo",
+    "pages/auth/auth",
+    "pages/book_detail/reader/reader"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#676767",
+    "selectedColor": "#fd9941",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/booklist/booklist",
+        "iconPath": "static/booklist_gray.png",
+        "selectedIconPath": "static/booklist.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/tuijian_gray.png",
+        "selectedIconPath": "static/tuijian.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/user_gray.png",
+        "selectedIconPath": "static/user.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
